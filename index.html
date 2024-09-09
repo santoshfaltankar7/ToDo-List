@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulVUqBF35rVHIZIa2ORZuphkoE_E0eZ5GqA&s" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <header class="text-white text-center py-3 mb-4" style="background-color: #250d21;">
+        <h1>Todo List</h1>
+    </header>
+    <div class="container">
+        <div id="inpDiv" class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter your Task" id="inp" aria-label="Task">
+            <button class="btn" style="background-color: #cca1ae; color: rgb(20, 18, 18);" id="btn">ADD TASK</button>
+            <div class="mb-3">
+                <select class="form-select" id="filterSelect">
+                    <option value="all">All</option>
+                    <option value="complete">Complete</option>
+                    <option value="pending">Pending</option>
+                </select>
+            </div>
+        </div>
+        
+
+
+        
+        <div class="card shadow-sm border-0">
+            <div class="card-body">
+                <ul id="addTask" class="list-group list-group-flush"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

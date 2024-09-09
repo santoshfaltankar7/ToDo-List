@@ -1,0 +1,46 @@
+body {
+   background-color: rgb(178, 231, 233);
+}
+
+
+#inpDiv {
+    margin-bottom: 20px; 
+}
+
+input[type="text"] {
+    outline: none;
+}
+
+.card {
+    margin-top: 20px;
+    border-radius: 10px; 
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #ffffff; 
+    border: 1px solid #e0e0e0; 
+    margin-bottom: 5px; 
+}
+
+.fa-trash-can {
+    cursor: pointer;
+    color: #e74c3c; 
+    transition: color 0.3s ease;
+}
+
+.fa-trash-can:hover {
+    color: #c0392b; 
+}
+
+.btn {
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049; 
+}
